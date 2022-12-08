@@ -1,0 +1,190 @@
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color:rgb(75,0,15);
+}
+.logo{
+	background-color: red;
+	height: 8vh;
+	width: 10%;
+}
+.orgao1{
+	
+	height: 45vh;
+	width: 100%;
+}
+.orgao2{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: rgb(75,0,15);
+	height: 90vh;
+	width: 100%;
+}
+.o2bloco1{
+
+	background-color: rgb(75,0,15);
+	height: 100%;
+	width: 33%;
+}
+.o2b1item1{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 100%;
+}
+.it1{
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 70%;
+}
+.tt1{
+background-color: rgb(75,0,15);
+height: 50%;
+width: 90%;
+}
+.o2b1item2{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 100%;
+}
+.it2{
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 70%;
+}
+.tt2{
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 90%;
+}
+.o2bloco2{
+	background-color: rgb(75,0,15);
+	height: 100%;
+	width: 33%;
+}
+.o2b2item1{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 100%;
+}
+.it3{
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 70%;
+}
+.tt3{
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 90%;
+}
+.o2b2item2{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 100%;
+}
+.it4{
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 70%;
+}
+.tt4{
+	background-color: rgb(75,0,15);
+	height: 50%;
+	width: 90%;
+}
+p{
+	color: white;
+	font-size: 13px;
+}
+.o2bloco3{
+	background-color: rgb(75,0,15);
+	height: 100%;
+	width: 34%;
+}
+.o2b3item1{
+	background-color: red;
+	height: 50%;
+	width: 100%;
+}
+.o2b3item2{
+	background-color: rgb(77, 0, 15);
+	height: 16%;
+	width: 100%;
+}
+.o2b3item3{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: cyan;
+	height: 16%;
+	width: 100%;
+}
+.o2b3i3p1{
+	background-color: rgb(77, 0, 15);
+	height: 100%;
+	width: 25%;
+}
+.o2b3i3p2{
+	background-color:rgb(77, 0, 15) ;
+	height: 100%;
+	width: 75%;
+}
+.o2b3item4{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: blueviolet;
+	height: 15%;
+	width: 100%;
+}
+.o2b3i4p1{
+	background-color: rgb(77, 0, 15);
+	height: 100%;
+	width: 25%;
+}
+.o2b3i4p2{
+	background-color: rgb(77, 0, 15);
+	height: 100%;
+	width: 75%;
+}
+@media (max-width: 600px){
+	.o2bloco1{
+		width: 100%;
+	}
+	.o2bloco2{
+		width: 100%;
+	}
+	.o2bloco3{
+		display: none;
+	}
+	p{
+		font-size: 12px;
+	}
+	.orgao1{
+		height: 80%;
+	}
+	.logo{
+		height: 5vh;
+	}
+}
